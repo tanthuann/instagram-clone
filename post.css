@@ -1,12 +1,43 @@
 .many-post {
     font-family: sans-serif;
     display: flex;
+    justify-content: center;
     margin-bottom: 28px;
 }
 
-.many-post .post {
+#myPost .post{
     margin-right: 28px;
     background-image: url(./cover.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#igTV .post {
+    margin-right: 28px;
+    background-image: url(./cover-2.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#postSaved .post{
+    margin-right: 28px;
+    background-image: url(./cover-3.png);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+#postTagged .post{
+    margin-right: 28px;
+    background-image: url(./cover-4.png);
     background-position: center;
     background-size: cover;
     width: 300px;
