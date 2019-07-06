@@ -1,0 +1,29 @@
+.bar-end .list {
+	list-style: none;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: rgb(0, 53, 105);
+	display: flex;
+	justify-content: center;
+}
+
+.bar-end .list .text {
+	margin: 0 16px 7px 0;
+	color: rgb(0, 53, 105);
+	text-decoration: none;
+}
+
+.bar-end .list .fisrt {
+	flex-grow: 1;
+	display: flex;
+}
+
+.bar-end .list .fisrt .language {
+	position: relative;
+}
+
+.bar-end .list .fisrt .language .language-list {
+	display: none;
+	position: absolute;
+	top: 20px;
+}
