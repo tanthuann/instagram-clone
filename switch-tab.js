@@ -4,5 +4,10 @@ function openTab(nameTab) {
 	for (var i = 0; i < x.length; i++) {
 		x[i].style.display = "none"
 	}
-	document.getElementById(nameTab).style.display = "flex";
+	var p = document.getElementsByClassName(nameTab);
+	for (var i = 0; i < p.length; i++) {
+		p[i].style.display = "flex";
+		// document.getElementById(nameTab).style.display = "flex";
+	}
+	// document.getElementById(nameTab).style.display = "flex";
 }

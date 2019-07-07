@@ -1,8 +1,8 @@
 .infor-user {
 	font-family: sans-serif;
 	display: grid;
-	grid-template-columns: 1fr 4fr;
-	padding: 50px;
+	grid-template-columns: 1fr 3fr;
+	padding: 0px;
 	height: auto;
 }
 
@@ -13,7 +13,7 @@
 	background-position: center;
 	background-size: cover;
 	clip-path: circle(6em at center);
-	padding: 0 30px;
+	padding: 0 70px;
 }
 
 /*div intro*/
@@ -33,7 +33,7 @@
 .infor-user .intro .name .edit-info {
 	width: 90px;
 	height: 30px;
-	border: 1px solid #DCDCDC;
+	border: 1px solid #fafafa;
 	border-radius: 4px;
 	margin-left: 20px;
 	display: flex;
@@ -51,7 +51,7 @@
 	width: 40px;
 	height: 40px;
 	border: none;
-	background-color: #fff;
+	background-color: #fafafa;
 	display: flex;
 	justify-content: center;
 	align-items: center;
